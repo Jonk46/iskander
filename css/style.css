@@ -7,7 +7,7 @@ a img { border:none;}
 h1, h2, h3, h4, h5, h6 { margin:0; padding:0;}
 h1 { padding:0; line-height:1.4em;}
 h2 { padding:0;}
-strong { font-weight:bold;}
+strong { font-weight: bold;}
 em { font-style:italic;}
 form, iframe { display:block; margin:0; padding:0; border:none;}
 ol, ul, menu, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
