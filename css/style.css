@@ -11,6 +11,7 @@ strong { font-weight: bold;}
 em { font-style:italic;}
 form, iframe { display:block; margin:0; padding:0; border:none;}
 ol, ul, menu, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
+blockquote, cite {margin: 0; padding: 0; font-style: normal}
 * { outline:none;}
 
 .clear:after {
@@ -163,26 +164,27 @@ p.lor:before {
     top: 30px;
     left: 140px;
     width: 408px;
-
 }
 
-p.red-bl {
+p.aplicat {
     color: #ffffff;
     font-size: 45px;
     font-weight: bold;
     line-height: 52px;
     text-align: center;
-    padding: 45px 15px 0;
+    padding-top: 70px;
 }
 
-span.red-text {
+p.aplic-text {
     color: #ffffff;
     font-size: 30px;
     font-weight: bold;
     line-height: 36px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-p.red-bl:before {
+p.aplicat:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -618,7 +620,7 @@ blockquote {
     font-weight: normal;
     line-height: 30px;
     text-align: left;
-    padding: 15px 0 30px 140px;
+    padding: 40px 0 30px 185px;
 }
 
 blockquote.vlad:before {
@@ -632,13 +634,13 @@ blockquote.vlad:before {
     background: url(../images/coment_vlad.png) no-repeat;
 }
 
-section.seventh p {
+section.seventh p.com-1 {
     color: #ffffff;
     font-size: 18px;
     font-weight: normal;
     line-height: 22px;
     text-align: left;
-    padding: 0 25px;
+    padding: 25px 25px 0;
 }
 
 div.second-resp {
@@ -664,6 +666,15 @@ blockquote.girl:before {
     background: url(../images/coment_too.png) no-repeat;
 }
 
+section.seventh p.com-2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 22px;
+    text-align: left;
+    padding: 80px 25px 0;
+}
+
 div.third-resp {
     position: relative;
     z-index: 2;
@@ -685,6 +696,15 @@ blockquote.elen:before {
     width: 133px;
     height: 134px;
     background: url(../images/coment_elen.png) no-repeat;
+}
+
+section.seventh p.com-3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 22px;
+    text-align: left;
+    padding: 85px 25px 0;
 }
 
 div.fourth-resp {
@@ -710,18 +730,14 @@ blockquote.elmira:before {
     background: url(../images/coment_elmir.png) no-repeat;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+section.seventh p.com-4 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 22px;
+    text-align: left;
+    padding: 55px 25px 0;
+}
 
 section.eight {
     background: url(../images/main-eight.jpg) no-repeat center center;
@@ -729,8 +745,273 @@ section.eight {
     min-height: 651px;
 }
 
+section.eight h2.steps {
+    font-size: 45px;
+    font-weight: normal;
+    padding: 146px 0 50px;
+    text-transform: uppercase;
+}
+
+section.eight menu.ideas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.eight menu.ideas li {
+    position: relative;
+    width: 33%;
+}
+
+section.eight menu.ideas li a {
+    width: 145px;
+    color: #000000;
+    font-size: 18px;
+    padding-left: 90px;
+}
+
+a.kurs:before {
+    position: absolute;
+    content: "";
+    width: 83px;
+    height: 84px;
+    top: 0;
+    left: 0;
+    background: url(../images/sprite.png) no-repeat 0 -328px;
+}
+
+a.kurs:after {
+    position: absolute;
+    content: "";
+    width: 68px;
+    height: 29px;
+    top: 25px;
+    left: 235px;
+    background: url(../images/stripe.png) no-repeat;
+}
+
+a.ring:before {
+    position: absolute;
+    content: "";
+    width: 83px;
+    height: 84px;
+    top: 0;
+    left: 0;
+    background: url(../images/sprite.png) no-repeat -85px -328px;
+}
+
+a.ring:after {
+    position: absolute;
+    content: "";
+    width: 68px;
+    height: 29px;
+    top: 25px;
+    left: 235px;
+    background: url(../images/stripe.png) no-repeat;
+}
+
+a.bus:before {
+    position: absolute;
+    content: "";
+    width: 83px;
+    height: 84px;
+    top: 0;
+    left: 0;
+    background: url(../images/sprite.png) no-repeat -170px -328px;
+}
+
+a.bus:after {
+    position: absolute;
+    content: "";
+    width: 29px;
+    height: 68px;
+    top: 70px;
+    left: 235px;
+    background: url(../images/stripe-down.png) no-repeat;
+}
+
+a.gea:before {
+    position: absolute;
+    content: "";
+    width: 83px;
+    height: 84px;
+    top: 42px;
+    left: 0;
+    background: url(../images/sprite.png) no-repeat -255px -328px;
+}
+
+a.gea:after {
+    position: absolute;
+    content: "";
+    width: 68px;
+    height: 29px;
+    top: 70px;
+    left: 235px;
+    background: url(../images/stripe.png) no-repeat;
+}
+
+a.letpen:before {
+    position: absolute;
+    content: "";
+    width: 83px;
+    height: 84px;
+    top: 42px;
+    left: 0;
+    background: url(../images/sprite.png) no-repeat -340px -328px;
+}
+
+a.letpen:after {
+    position: absolute;
+    content: "";
+    width: 68px;
+    height: 29px;
+    top: 70px;
+    left: 235px;
+    background: url(../images/stripe.png) no-repeat;
+}
+
+a.des:before {
+    position: absolute;
+    content: "";
+    width: 83px;
+    height: 84px;
+    top: 42px;
+    left: 0;
+    background: url(../images/sprite.png) no-repeat -425px -328px;
+}
+
+a.tel:before {
+    position: absolute;
+    content: "";
+    width: 83px;
+    height: 84px;
+    top: 0;
+    left: 0;
+    background: url(../images/sprite.png) no-repeat -510px -328px;
+}
+
+a.tel:after {
+    position: absolute;
+    content: "";
+    width: 29px;
+    height: 68px;
+    top: -60px;
+    left: -45px;
+    background: url(../images/stripe-down2.png) no-repeat;
+}
+
+menu.ideas a.gea, a.letpen, a.des {
+    padding: 37px 0;
+}
+
+
+
+
 section.nine {
     background: url(../images/main-nine.jpg) no-repeat center center;
     background-size: cover;
     min-height: 712px;
+}
+
+section.nine div.red-block {
+    position: relative;
+    z-index: 1;
+    float: left;
+    top: 190px;
+    left: 432px;
+    width: 408px;
+}
+
+section.nine  p.aplicat {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 52px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+section.nine p.aplic-text {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+section.nine p.aplicat:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 408px;
+    height: 457px;
+    background: url(../images/red.png) no-repeat;
+}
+
+section.nine form.forms {
+    width: 340px;
+    padding-left: 40px;
+}
+
+section.nine input.buttons {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 9px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+}
+
+section.nine p.aplication a:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+section.nine p.aplication {
+    width: 245px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+section.nine p.aplication a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    background: #868686;
+    border-radius: 6px;
+}
+
+footer div.foot {
+    height: 159px;
+    background: #000000;
+}
+
+footer div.logo-foot {
+    float: left;
+}
+
+footer div.foot-contacts {
+    float: right;
+    text-align: right;
+    padding: 35px 0 30px 0;
+}
+footer div.foot-contacts a {
+    display: block;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.foot-contacts>a:last-child {
+    font-size: 20px;
+}
+
+footer div.white {
+    height: 170px;
+    background: #ffffff repeat;
 }
