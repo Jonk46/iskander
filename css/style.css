@@ -269,31 +269,15 @@ section.third h2 {
     padding-top: 140px;
 }
 
-div.left   {
-    float: left;
-    width: 50%;
-}
-
-div.right   {
-    float: right;
-    width: 50%;
-}
-
-menu.left, menu.right {
-    display: block;
-}
-
 menu.left {
-    width: 448px;
-    float: left;
-    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 menu.left li {
     position: relative;
-    display: block;
-    width: 408px;
     padding-top: 60px;
+    width: 50%;
 }
 
 menu.left li p.buy {
@@ -315,59 +299,6 @@ a.cup:before {
     background: url(../images/sprite.png) no-repeat 0 0;
 }
 
-a.skaf:before {
-    position: absolute;
-    content: "";
-    width: 102px;
-    height: 101px;
-    left: 0;
-    top: 66px;
-    background: url(../images/sprite.png) no-repeat -103px 0;
-}
-
-a.garant:before {
-    position: absolute;
-    content: "";
-    width: 102px;
-    height: 101px;
-    left: 0;
-    top: 65px;
-    background: url(../images/sprite.png) no-repeat -206px 0;
-}
-
-a.delivery:before {
-    position: absolute;
-    content: "";
-    width: 102px;
-    height: 101px;
-    left: 0;
-    top: 65px;
-    background: url(../images/sprite.png) no-repeat -309px 0;
-}
-
-menu.right {
-    width: 448px;
-    float: right;
-    padding-left: 30px;
-}
-
-menu.right li {
-    position: relative;
-    display: block;
-    width: 430px;
-    padding-top: 60px;
-}
-
-menu.right li p {
-    font-size: 18px;
-    padding: 8px 0 0 122px;
-}
-
-menu.right li p.buy {
-    font-size: 25px;
-}
-
-
 a.years:before {
     position: absolute;
     content: "";
@@ -376,6 +307,16 @@ a.years:before {
     left: 0;
     top: 65px;
     background: url(../images/sprite.png) no-repeat 0 -104px;
+}
+
+a.skaf:before {
+    position: absolute;
+    content: "";
+    width: 102px;
+    height: 101px;
+    left: 0;
+    top: 66px;
+    background: url(../images/sprite.png) no-repeat -103px 0;
 }
 
 a.economy:before {
@@ -388,6 +329,16 @@ a.economy:before {
     background: url(../images/sprite.png) no-repeat -103px -104px;
 }
 
+a.garant:before {
+    position: absolute;
+    content: "";
+    width: 102px;
+    height: 101px;
+    left: 0;
+    top: 65px;
+    background: url(../images/sprite.png) no-repeat -206px 0;
+}
+
 a.free:before {
     position: absolute;
     content: "";
@@ -396,6 +347,16 @@ a.free:before {
     left: 0;
     top: 65px;
     background: url(../images/sprite.png) no-repeat -206px -104px;
+}
+
+a.delivery:before {
+    position: absolute;
+    content: "";
+    width: 102px;
+    height: 101px;
+    left: 0;
+    top: 65px;
+    background: url(../images/sprite.png) no-repeat -309px 0;
 }
 
 a.drel:before {
@@ -599,8 +560,6 @@ section.seventh h2.respones {
     padding: 60px 0 50px;
     text-transform: uppercase;
 }
-
-
 
 div.first-resp {
     position: relative;
@@ -845,8 +804,8 @@ a.gea:after {
     width: 68px;
     height: 29px;
     top: 70px;
-    left: 235px;
-    background: url(../images/stripe.png) no-repeat;
+    left: 229px;
+    background: url(../images/stripe-l.png) no-repeat;
 }
 
 a.letpen:before {
@@ -865,8 +824,8 @@ a.letpen:after {
     width: 68px;
     height: 29px;
     top: 70px;
-    left: 235px;
-    background: url(../images/stripe.png) no-repeat;
+    left: 229px;
+    background: url(../images/stripe-l.png) no-repeat;
 }
 
 a.des:before {
@@ -902,9 +861,6 @@ a.tel:after {
 menu.ideas a.gea, a.letpen, a.des {
     padding: 37px 0;
 }
-
-
-
 
 section.nine {
     background: url(../images/main-nine.jpg) no-repeat center center;
