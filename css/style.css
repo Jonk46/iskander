@@ -111,6 +111,7 @@ li a {
 
 .menu li>a:hover {
     color: red;
+    transition: .8s;
 }
 
 section.first {
@@ -280,6 +281,11 @@ menu.left li {
     width: 50%;
 }
 
+menu.left li a:hover:before {
+    transition: .3s;
+    opacity: .7;
+}
+
 menu.left li p.buy {
     font-size: 25px;
 }
@@ -428,6 +434,11 @@ section.fifth menu li a {
     padding-left: 230px;
 }
 
+section.fifth menu a:hover:before {
+    transition: .3s;
+    opacity: .7;
+}
+
 section.fifth p.develop {
     font-weight: bold;
     padding: 30px 0 35px;
@@ -489,15 +500,18 @@ section.sixth h2.projects {
 }
 
 section.sixth menu.kitchen {
-    display: table;
+    display: flex;
     width: 100%;
     padding-bottom: 40px;
 }
 
 section.sixth li {
     position: relative;
-    display: table-cell;
-    vertical-align: middle;
+}
+
+section.sixth li a:hover {
+    color: coral;
+    transition: .8s;
 }
 
 section.sixth li a {
@@ -516,10 +530,6 @@ section.sixth li a.slash:before {
     content: "//";
     top: 4px;
     left: -4px;
-}
-
-section.sixth li>a:hover {
-    color: red;
 }
 
 div.gallery {
@@ -727,6 +737,13 @@ section.eight menu.ideas li a {
     font-size: 18px;
     padding-left: 90px;
 }
+
+
+section.eight menu.ideas li a:hover:before {
+    transition: .5s;
+    opacity: .3;
+}
+
 
 a.kurs:before {
     position: absolute;
